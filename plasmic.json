@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -29,21 +29,7 @@
       "cssFilePath": "plasmic/website_starter/plasmic.module.css",
       "components": [
         {
-          "id": "saqqAtqiMdpt",
-          "name": "Homepage",
-          "type": "managed",
-          "projectId": "eLTeFVpwXttNU7zNNtQc1u",
-          "renderModuleFilePath": "plasmic/website_starter/PlasmicHomepage.jsx",
-          "importSpec": {
-            "modulePath": "Homepage.jsx"
-          },
-          "cssFilePath": "plasmic/website_starter/PlasmicHomepage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/"
-        },
-        {
-          "id": "k1ejWPTsEcVq",
+          "id": "QFSc57Q1gim3",
           "name": "Login",
           "type": "managed",
           "projectId": "eLTeFVpwXttNU7zNNtQc1u",
@@ -53,7 +39,36 @@
           },
           "cssFilePath": "plasmic/website_starter/PlasmicLogin.module.css",
           "scheme": "blackbox",
-          "componentType": "component"
+          "componentType": "page",
+          "path": "/login"
+        },
+        {
+          "id": "n7gWFPI8VLbC",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "eLTeFVpwXttNU7zNNtQc1u",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "PCWdn5kOt7qV",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "eLTeFVpwXttNU7zNNtQc1u",
+          "renderModuleFilePath": "plasmic/website_starter/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/website_starter/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
         }
       ],
       "icons": [
@@ -111,6 +126,21 @@
           "id": "A4v8bVlI7kRl",
           "name": "ArrowRightIcon",
           "moduleFilePath": "plasmic/website_starter/icons/PlasmicIcon__ArrowRight.jsx"
+        },
+        {
+          "id": "iDEuC4C3rQ6c",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/website_starter/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "QJTGrep3u848",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/website_starter/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "Csp9RkVwugai",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/website_starter/icons/PlasmicIcon__Icon.jsx"
         }
       ],
       "images": [
